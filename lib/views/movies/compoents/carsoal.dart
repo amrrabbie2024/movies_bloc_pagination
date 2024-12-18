@@ -64,6 +64,7 @@ class _MoviesCarsoalState extends State<MoviesCarsoal> {
     return GestureDetector(
       onTap: () {
         print(movie.title);
+        navigateTo(MovieDetails(id: movie.id, title: movie.title));
       },
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,

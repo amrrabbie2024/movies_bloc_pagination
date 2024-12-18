@@ -8,6 +8,7 @@ import 'package:flutter_movies_bloc/core/constants.dart';
 import 'package:flutter_movies_bloc/core/design/failed.dart';
 import 'package:flutter_movies_bloc/core/design/loading.dart';
 import 'package:flutter_movies_bloc/core/logic/helper_methods.dart';
+import 'package:flutter_movies_bloc/features/movie_details/bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get_it/get_it.dart';
 import 'package:kiwi/kiwi.dart';
@@ -18,6 +19,7 @@ part 'compoents/list.dart';
 part 'compoents/grid.dart';
 part 'compoents/dropdown.dart';
 part 'compoents/carsoal.dart';
+part 'compoents/details.dart';
 
 class MoviesView extends StatefulWidget {
   const MoviesView({super.key});

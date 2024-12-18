@@ -60,6 +60,7 @@ class _MoviesListState extends State<MoviesList> {
     return InkWell(
       onTap: () {
         print(movie.title);
+        Navigator.push(context,  MaterialPageRoute(builder: (context) => MovieDetails(id: movie.id, title: movie.title),));
       },
       child: Container(
         padding: EdgeInsetsDirectional.symmetric(horizontal: 16.w),

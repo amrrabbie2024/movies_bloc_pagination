@@ -55,6 +55,7 @@ class _MoviesDropDownState extends State<MoviesDropDown> {
         onChanged: (value) {
         setState(() {
           currentMovie=value!;
+          //Navigator.push(context, MaterialPageRoute(builder:  (context) => MovieDetails(id: moviesList[value].id, title: moviesList[value].title),));
         });
         },);
   }

@@ -64,6 +64,7 @@ class _MoviesGridState extends State<MoviesGrid> {
     return GestureDetector(
       onTap: () {
         print(movie.title);
+        navigateTo(MovieDetails(id: movie.id, title: movie.title));
       },
       child: Card(
         //color: Colors.grey.withOpacity(.5),
